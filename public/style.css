@@ -1,3 +1,45 @@
 body {
+    box-sizing: border-box;
+}
+
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body > span {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+}
+
+li {
+    display: flex;
+    padding-right: 40px;
+}
+
+.stars-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.stars-list .item {
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+
+.colored {
+    color: blue;
 }
